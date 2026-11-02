@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<style>
+  body { margin:0; padding:28px; background:#f7f8fa; font-family: -apple-system,"Segoe UI","Microsoft YaHei",sans-serif; }
+  .card { max-width: 780px; margin:0 auto; background:#fff; border-radius:12px; padding:22px 26px; box-shadow: 0 2px 12px rgba(0,0,0,.07); }
+  .who { font-size:13px; color:#999; margin-bottom:10px; }
+  .body { font-size:16px; line-height:1.95; color:#1a1a1a; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="who">DeepSeek Harness · dsh-math</div>
+  <div class="body" id="chat">
+    <p>柯西积分公式是 $f(z_0)=\frac{1}{2\pi i}\oint_C \frac{f(z)}{z-z_0}\,dz$，收敛半径 $R=\lim\left|\frac{a_n}{a_{n+1}}\right|$。</p>
+    <p>拉普拉斯变换：</p>
+    $$ \mathcal{L}[e^{kt}] = \int_0^\infty e^{kt}e^{-st}\,dt = \frac{1}{s-k} $$
+    <p>洛朗展开：</p>
+    $$ \frac{1}{(z-2)(z-3)} = \sum_{n=0}^{\infty}\frac{3^n-2^n}{z^{n+1}} \qquad (3<|z|<\infty) $$
+  </div>
+</div>
+<script>
+  window.__ModuleLoader__ = {
+    load(spec) {
+      const m = spec.factory(function () { return {}; });
+      if (m && typeof m.apply === 'function') m.apply({});
+    }
+  };
+</script>
+<script src="../lib/client.js"></script>
+</body>
+</html>
