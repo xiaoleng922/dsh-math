@@ -1,0 +1,5 @@
+# dsh-math: render LaTeX math in assistant replies with KaTeX.
+# Install: dsh plugin --profile <profile-name> add dsh-math
+- insert:
+    - id: dsh-math
+      name: dsh-math

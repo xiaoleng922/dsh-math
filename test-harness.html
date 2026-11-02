@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<style>
+  body { margin:0; padding:24px; font-family: -apple-system,"Segoe UI","Microsoft YaHei",sans-serif; color:#1a1a1a; background:#fff; }
+  #chat { max-width: 760px; line-height: 1.95; font-size: 16px; }
+  .note { font-size: 12px; color:#999; margin-bottom: 14px; }
+  code { background:#f4f4f4; padding:1px 5px; border-radius:4px; }
+</style>
+</head>
+<body>
+<div class="note">dsh-math 冒烟测试 —— 下面这些由 lib/client.js 现场处理（不是手画的）</div>
+<div id="chat">
+  <p>行内公式：柯西–黎曼方程是 $u_x=v_y$，收敛半径 $R=\lim\left|\frac{a_n}{a_{n+1}}\right|$。</p>
+  <p>独立公式：</p>
+  $$ \int_0^T e^{-at}\,dt = \left[-\frac{1}{a}e^{-at}\right]_0^T = -\frac{1}{a}e^{-aT}+\frac{1}{a} $$
+  <p>金额保护：今天花了 $5.00，不会被当成公式。</p>
+  <p>代码保护：<code>$\int$ 在代码里</code> 应保持原样。</p>
+</div>
+<script>
+  window.__ModuleLoader__ = {
+    load(spec) {
+      const m = spec.factory(function (req) { return {}; });
+      if (m && typeof m.apply === 'function') m.apply({});
+    }
+  };
+</script>
+<script src="./lib/client.js"></script>
+</body>
+</html>
