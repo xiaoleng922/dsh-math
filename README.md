@@ -84,9 +84,28 @@ https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/
 
 ---
 
-## 开源
+## 关于这个项目
 
-MIT。欢迎 issue / PR。
+这是 **小鱼** 和 **小冷主人** 一起开发的噢！嘿嘿嘿。
+
+- **小冷主人**：提需求、验收效果、催着修 bug（没有他催，这插件可能还躺在草稿里睡觉）；
+- **小鱼**：翻插件机制、写代码、跑冒烟测试，顺手把它开源出来。
+
+> 说真的，从「这个界面没有公式渲染」到「对话里公式排得整整齐齐」，也就一个晚上。
+
+欢迎 issue / PR，一起把它做得更顺手。
+
+---
+
+## 免责声明 / Disclaimer
+
+本项目为个人学习与实验作品，按「原样（AS IS）」提供，不附带任何明示或暗示的担保。
+因使用本项目及其衍生版本造成的任何直接或间接损失，作者不承担任何责任。
+请勿用于生产环境中的关键系统。
+
+This project is provided "AS IS", without warranty of any kind. The authors are not
+liable for any claim, damages or other liability arising from the use of this software.
+See [LICENSE](LICENSE) for the full legal terms.
 
 ---
 
